@@ -225,15 +225,4 @@ p {
         flex: 1 1 100%;
     }
 
-   .menu li a {
-        color: #fff;
-        text-decoration: none;
-        padding: 9px;
-        display: flex; /* Para usar flexbox */
-        align-items: center; /* Alinha verticalmente */
-    }
-
-    .menu li a span {
-        margin-left: auto; /* Move o ícone para a direita */
-    }
 }
