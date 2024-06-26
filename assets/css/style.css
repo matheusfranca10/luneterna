@@ -235,5 +235,6 @@ p {
         max-width: 200px; /* Largura máxima do dropdown */
         width: 100%; /* Ocupa toda a largura do container pai */
         text-align: right; /* Alinha o texto à direita dentro do dropdown */
+        transform: translateX(-10px); /* Ajuste fino para posição na borda direita */
     }
 }
