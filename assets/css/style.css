@@ -230,7 +230,10 @@ p {
     }
 
     .dropdown-content {
-        right: 0; 
-        left: auto; 
+        right: 0;
+        left: auto;
+        max-width: 200px; /* Largura máxima do dropdown */
+        width: 100%; /* Ocupa toda a largura do container pai */
+        text-align: right; /* Alinha o texto à direita dentro do dropdown */
     }
 }
