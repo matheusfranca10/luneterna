@@ -228,7 +228,7 @@ p {
    .menu li a {
         color: #fff;
         text-decoration: none;
-        padding: 10px;
+        padding: 9px;
         display: flex; /* Para usar flexbox */
         align-items: center; /* Alinha verticalmente */
     }
