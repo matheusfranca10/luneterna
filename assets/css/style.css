@@ -237,4 +237,8 @@ p {
         text-align: right; /* Alinha o texto à direita dentro do dropdown */
         transform: translateX(-10px); /* Ajuste fino para posição na borda direita */
     }
+
+     .dropdown:hover .dropdown-content {
+        left: auto; /* Garante que o dropdown fique à direita ao abrir */
+    }
 }
