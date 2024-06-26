@@ -225,4 +225,17 @@ p {
         flex: 1 1 100%;
     }
 
+    .navbar {
+        justify-content: flex-end; /* Alinha os itens à direita */
+        padding: 10px; /* Reduz o padding para economizar espaço */
+    }
+
+    .menu li {
+        margin-right: 10px; /* Reduz a margem entre os itens do menu */
+    }
+
+    .navbar a {
+        margin-right: 10px; /* Ajusta a margem direita dos itens de menu */
+    }
+
 }
