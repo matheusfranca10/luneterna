@@ -225,7 +225,12 @@ p {
         flex: 1 1 100%;
     }
 
+     .dropdown {
+        position: relative;
+    }
+
     .dropdown-content {
-        right: 0;
+        right: 0; 
+        left: auto; 
     }
 }
