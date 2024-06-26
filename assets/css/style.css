@@ -225,20 +225,11 @@ p {
         flex: 1 1 100%;
     }
 
-     .dropdown {
-        position: relative;
+   .navbar {
+        padding-right: 10px; /* Adiciona um espaçamento à direita para alinhar */
     }
 
-    .dropdown-content {
-        right: 0; /* Alinha o dropdown à direita */
-        left: auto;
-        max-width: 200px; /* Largura máxima do dropdown */
-        width: 100%; /* Ocupa toda a largura do container pai */
-        text-align: right; /* Alinha o texto à direita dentro do dropdown */
-        transform: translateX(-10px); /* Ajuste fino para posição na borda direita */
-    }
-
-     .dropdown:hover .dropdown-content {
-        left: auto; /* Garante que o dropdown fique à direita ao abrir */
+    .menu {
+        margin-left: auto; /* Move o menu para a direita */
     }
 }
