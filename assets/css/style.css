@@ -77,11 +77,17 @@ p {
     color: #fff;
     text-decoration: none;
     padding: 10px;
-    display: block;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
 }
 
 .menu li a:hover {
     text-decoration: underline;
+}
+
+.menu li a span {
+    margin-left: 5px; /* Espaço entre o texto e o ícone */
+    transition: transform 0.3s ease;
 }
 
 /* Estilos para o dropdown */
@@ -119,7 +125,7 @@ p {
 .navbar a {
     color: #fff;
     margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 50px;
     text-decoration: none;
 }
 
@@ -237,5 +243,4 @@ p {
     .navbar a {
         margin-right: 10px; /* Ajusta a margem direita dos itens de menu */
     }
-
 }
