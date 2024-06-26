@@ -12,26 +12,21 @@ body {
     padding: 0;
     overflow-x: hidden; /* Evita scroll horizontal */
 }
-
 /* Estilos gerais para links, cabeçalhos, etc. */
 a {
     color: #007bff;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     font-weight: normal;
 }
-
 p {
     margin-bottom: 1rem;
 }
-
 .container {
     width: 80%;
     margin: 0 auto;
@@ -39,7 +34,6 @@ p {
     background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
     border-radius: 8px;
 }
-
 .header {
     display: flex;
     align-items: center;
@@ -47,13 +41,11 @@ p {
     padding: 10px 20px;
     background-color: #131537;
 }
-
 .header img {
     height: 80px; /* Ajuste a altura conforme necessário */
     width: 110px; 
     opacity: 0.9;
 }
-
 .navbar {
     display: flex;
     align-items: center;
@@ -61,40 +53,28 @@ p {
     padding: 10px 20px;
     background-color: #131537;
 }
-
 .menu {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
 .menu li {
     margin-right: 20px;
 }
-
 .menu li a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
+    display: block;
 }
-
 .menu li a:hover {
     text-decoration: underline;
 }
-
-.menu li a span {
-    margin-left: 5px; /* Espaço entre o texto e o ícone */
-    transition: transform 0.3s ease;
-}
-
 /* Estilos para o dropdown */
 .dropdown {
     position: relative;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -104,35 +84,28 @@ p {
     list-style-type: none;
     padding: 0;
 }
-
 .dropdown-content li {
     padding: 10px;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .dropdown-content li a {
     color: #fff;
     text-decoration: none;
 }
-
 .dropdown-content li a:hover {
     text-decoration: underline;
 }
-
 .navbar a {
     color: #fff;
     margin-left: 20px;
-    margin-right: 50px;
+    margin-right: 40px;
     text-decoration: none;
 }
-
 .navbar a:hover {
     text-decoration: underline;
 }
-
 .threat {
     display: flex;
     flex-direction: row;
@@ -142,7 +115,6 @@ p {
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd;
 }
-
 .threat img {
     width: 200px;
     height: auto;
@@ -152,19 +124,15 @@ p {
     cursor: pointer;
     margin-right: 20px; /* Espaço entre a imagem e o texto */
 }
-
 .threat img:hover {
     transform: scale(1.05);
 }
-
 .threat-content {
     flex: 1;
 }
-
 .threat-content h2 {
     margin-top: 0;
 }
-
 /* Estilos adicionais para a página de ameaças */
 .threat-content h1 {
     margin-top: 0;
@@ -177,7 +145,6 @@ p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: inline-block; /* Para limitar o tamanho ao conteúdo */
 }
-
 .modal {
     display: none; /* Inicia escondido */
     position: fixed;
@@ -189,7 +156,6 @@ p {
     background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com transparência */
     overflow: auto;
 }
-
 .modal-content {
     display: block;
     margin: auto;
@@ -199,32 +165,27 @@ p {
     top: 50%;
     transform: translateY(-50%);
 }
-
 .modal-content img {
     width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-
 /* Media Queries para tornar a página responsiva */
 @media (max-width: 768px) {
     .container {
         width: 90%;
         padding: 10px;
     }
-
     .threat {
         flex-direction: column;
         align-items: center;
     }
-
     .threat img {
         margin-bottom: 20px;
         width: 100%;
         max-width: 200px;
     }
-
     .threat-content {
         margin-left: 0;
         margin-top: 0;
@@ -243,4 +204,5 @@ p {
     .navbar a {
         margin-right: 10px; /* Ajusta a margem direita dos itens de menu */
     }
+
 }
